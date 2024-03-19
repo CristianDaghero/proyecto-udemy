@@ -15,6 +15,33 @@
     </head>
 <body>
     <h1>Contenido Incrustado</h1><br>
+
+
+
+    <canvas id="miTablero" width="600" height="400" style="border: 2px solid black;"></canvas><br>
+    <script>
+       var c  =  document.getElementById( "miTablero" );
+       var ct =  c.getContext( "2d" );
+
+       ct.fillStyle = "rgb( 23, 136, 66 )";
+    //    ct.fillRect( 40, 30, 100, 100 );
+
+    //    ct.strokeRect( 130, 130, 80, 80 );
+
+       ct.beginPath();
+       ct.strokeStyle = "rgb( 23, 136, 66 )";
+       ct.arc( 75, 75, 50, 0, Math.PI * 2, true);
+       ct.moveTo( 110, 75 );
+       ct.arc( 75, 75, 35, 0, Math.PI, false );
+       ct.moveTo( 65, 65 );
+       ct.arc( 60, 65, 5, 0, Math.PI * 2, true);
+       ct.moveTo( 95, 65 );
+       ct.arc( 90, 65, 5, 0, Math.PI * 2, true);
+       ct.stroke();
+
+
+    </script>
+
         <iframe src="otros.html/index.html" frameborder="0"></iframe>
     
     <h1>Mis redes sociales</h1>
