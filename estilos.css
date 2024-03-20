@@ -1,3 +1,14 @@
 html {
     background-color: darkgray;
 }
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: blueviolet;
+    color: white;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px, 7px;
+}
