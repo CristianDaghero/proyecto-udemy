@@ -5,7 +5,8 @@
     <title>Formularios-parte 1</title>
 </head>
 <body>
-    <form action="" method="get">
+
+       <form action="" method="get">
         <input name="Nombre" type="text">
         <br>
         <input name="Apellido" type="text">
@@ -17,6 +18,9 @@
     </form>
 
     <form action="" method="get" target="">
+
+        
+        <input name="oculto" type="hidden" value="codeseguridad123456">
 
         <input name="frutas" id="Manzana" value="Manzana" type="checkbox"> <label for="Manzana">Manzana</label><br>
         <input name="frutas" id="Pera" value="Pera" type="checkbox"> <label for="Pera">Pera</label><br>
@@ -32,6 +36,10 @@
             <input name="Genero" type="radio" id="Hombre" value="Hombre">
             Hombre
         </label><br>
+        
+        <input name="color" type="color"><br>
+        <input name="file" type="file"><br>
+
 
         <button type="submit">Enviar</button>
     </form><br>
