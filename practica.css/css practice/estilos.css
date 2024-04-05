@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p span:first-child {
+    background-color: aqua;
+}
+
+p span:last-child {
+    background-color: beige;
+    font-size: 30px;
+}
+
+p span:only-child {
+    background-color: chartreuse;
+    font-size: 20px;
+    color: #20030f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* a:lang(es) {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+ */
+
+ a {
+    display: block;
+    margin: 5px;
+ }
+
+ a:link {
+    color: steelblue;
+ }
+
+ a:visited {
+    color: rgb(121, 5, 5);
+ }
+ 
+ a:hover, p:hover {
+    background-color: aquamarine;
+    padding: 20px;
+    color: black;
+ }
+
+ a:active {
+    background-color: #20030f;
+    padding: 10px;
+    color: floralwhite;
+ }
+
+ input:focus, textarea:focus {
+    background-color: yellowgreen;
+    color: black;
+    padding: 15px;
+ }
+ 
