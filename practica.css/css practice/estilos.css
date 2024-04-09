@@ -1,60 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
+   padding: 20px;
+   margin: 0;
 }
 
-p span:first-child {
-    background-color: aqua;
-}
 
-p span:last-child {
-    background-color: beige;
-    font-size: 30px;
-}
-
-p span:only-child {
-    background-color: chartreuse;
-    font-size: 20px;
-    color: #20030f;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* a:lang(es) {
-    background-color: blue;
-    color: white;
-    padding: 8px;
-    text-decoration: none;
-}
- */
-
- a {
-    display: block;
-    margin: 5px;
+ .texto {
+   height: 200px;
+   width: 300px;
+   overflow: auto;
+   border: 1px solid black;
+   text-align: center;
  }
 
- a:link {
-    color: steelblue;
+ ::-webkit-scrollbar {
+   width: 10px;
  }
 
- a:visited {
-    color: rgb(121, 5, 5);
- }
- 
- a:hover, p:hover {
-    background-color: aquamarine;
-    padding: 20px;
-    color: black;
+ ::-webkit-scrollbar-track {
+   background-color: silver;
  }
 
- a:active {
-    background-color: #20030f;
-    padding: 10px;
-    color: floralwhite;
+ ::-webkit-scrollbar-thumb {
+   background-color: red;
  }
 
- input:focus, textarea:focus {
-    background-color: yellowgreen;
-    color: black;
-    padding: 15px;
+ ::-webkit-scrollbar-thumb:hover {
+   background-color: black;
  }
- 
+ ::-webkit-scrollbar-thumb:active {
+   background-color: green;
+ }
