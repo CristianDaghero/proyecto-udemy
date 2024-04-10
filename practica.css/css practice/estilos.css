@@ -3,8 +3,19 @@
    margin: 0;
 }
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 30px;
+  text-transform: capitalize;
+  white-space: pre-line;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: underline;
+}
 
- .texto {
+
+ /* .texto {
    height: 200px;
    width: 300px;
    overflow: auto;
@@ -29,4 +40,11 @@
  }
  ::-webkit-scrollbar-thumb:active {
    background-color: green;
- }
+ } */
+
+/* p {
+  font: italic bold small-caps 35px Arial, Helvetica, sans-serif;
+
+  } */
+
+ 
