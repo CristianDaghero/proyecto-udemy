@@ -14,10 +14,21 @@ section {
 }
 
 .uno {
-    background-image: url(../img/descarga.jpg)
+    background-image: url(../img/descarga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dos {
-    background-image: url(../img/pagani.jpg);
+    overflow: auto;
+    padding: 45px;
+    color: blue;
+    background-image: url(../img/bugatti.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px dashed green;
+    background-origin: content-box;
 }
+
