@@ -4,23 +4,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    height: 300px;
-    background-color: brown;
+body {
+    background-color: crimson;
 }
 
-section {
+div {
     height: 400px;
+    width: 400px;
+    background-color: rgb(7, 119, 11);
+    margin: 100px auto;
+    border-radius: 40px / 20px;
 }
 
-.uno {
-    background-image: url(../img/descarga.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(52, 3, 3); 
-    background-blend-mode: hard-light;
+img {
+    height: 60%;
+    border-radius: 50%;
+    border: 5px solid black;
+
 }
-
-
 
