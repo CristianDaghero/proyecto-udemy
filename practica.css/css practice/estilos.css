@@ -4,16 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    height: 180px;
-    width: 300px;
+.degradado {
+    height: 400px;
+    width: 400px;
     margin: 100px auto;
-    background-color: aquamarine;
-    border: 30px solid;
-    border-image-source: url(../img/border.jpg);
-    border-image-slice: 30;
-    border-image-width: 40px;
-    border-image-repeat: round;
+    background: repeating-linear-gradient(to top left, red 15px, black 50px, blue 100px);
 }
 
 
