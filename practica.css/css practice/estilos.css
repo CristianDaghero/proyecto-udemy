@@ -8,32 +8,29 @@ body {
     background-color: brown;
 }
 
-article {
-    margin: 50px;
-    padding: 15px;
-    background-color: cornsilk;
-    column-count: 3;
-    column-gap: 30px;
-    column-rule-width: 3px;
-    column-rule-style: dotted;
-    column-rule-color: blue;
-    column-width: 250px;
+#contenedor {
+    display: flex;
+    flex-direction: ;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-img {
-    margin: 15px 0;
-    max-width: 100%;
+#contenedor div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    box-sizing: border-box;
 }
 
 p {
-    margin: 10px 0;
+    font-size: 40px;
 }
 
-h1 {
-    column-span: all;
-    text-align: center;
-    margin: 10px 0;
-}
+
 
 
 
