@@ -12,6 +12,12 @@ article {
     margin: 50px;
     padding: 15px;
     background-color: cornsilk;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-width: 3px;
+    column-rule-style: dotted;
+    column-rule-color: blue;
+    column-width: 250px;
 }
 
 img {
@@ -22,4 +28,12 @@ img {
 p {
     margin: 10px 0;
 }
+
+h1 {
+    column-span: all;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
 
