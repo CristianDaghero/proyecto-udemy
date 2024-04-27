@@ -9,10 +9,9 @@ body {
 }
 
 #contenedor {
+    height: 700px;
     display: flex;
-    flex-direction: ;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: row;
 }
 
 #contenedor div {
@@ -30,7 +29,24 @@ p {
     font-size: 40px;
 }
 
+.uno {
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
 
+.dos {
+    flex-grow: 2;
+    align-self: flex-start;
+}
 
+.tres {
+    flex-grow: 3;
+    flex-shrink: 2;
+}
 
+.cuatro {
+    order: 1;
+    flex-grow: 2;
+}
 
