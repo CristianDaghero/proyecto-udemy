@@ -8,45 +8,68 @@ body {
     background-color: brown;
 }
 
-#contenedor {
-    height: 700px;
-    display: flex;
-    flex-flow: row;
+section {
+    width: 400px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: rgb(14, 187, 231);
+    border: 10px solid rgba(209, 16, 16, 0.62);
 }
 
-#contenedor div {
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4px;
-    box-sizing: border-box;
+h1 {
+    text-align: center;
+    color: brown;
 }
 
-p {
-    font-size: 40px;
+img {
+    margin-bottom: 5px;
+    max-width: 200px;
 }
 
-.uno {
-  flex-grow: 2;
-  flex-shrink: 0;
-  flex-basis: 200px;
+@font-face {
+  font-family: 'mis-iconos';
+  src:  url('..//fonts/iconos/icomoon.eot?mnesgy');
+  src:  url('..//fonts/iconos/icomoon.eot?mnesgy#iefix') format('embedded-opentype'),
+    url('..//fonts/iconos/icomoon.ttf?mnesgy') format('truetype'),
+    url('..//fonts/iconos/icomoon.woff?mnesgy') format('woff'),
+    url('..//fonts/iconos/icomoon.svg?mnesgy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-.dos {
-    flex-grow: 2;
-    align-self: flex-start;
+
+.icon-headphones:before,
+.icon-cart:before, 
+.icon-clock:before,
+.icon-bubble2:before,
+.icon-user:before {
+    font-family: 'mis-iconos' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.tres {
-    flex-grow: 3;
-    flex-shrink: 2;
-}
-
-.cuatro {
-    order: 1;
-    flex-grow: 2;
-}
+.icon-headphones:before {
+    content: "\e910";
+  }
+.icon-cart:before {
+    content: "\e93a";
+  }
+.icon-clock:before {
+    content: "\e94e";
+  }
+.icon-bubble2:before {
+    content: "\e96e";
+  }
+.icon-user:before {
+    content: "\e971";
+  }
+  
 
