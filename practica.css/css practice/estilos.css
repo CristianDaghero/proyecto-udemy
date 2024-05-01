@@ -6,23 +6,36 @@
 
 body {
     background-color: brown;
+    perspective: 800px;
+    perspective-origin: 50% 1000px;
 }
 
-div {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    margin: 0 auto;
-    transition-property: background-color, height, width;
-    transition-duration: .5s, 1s, 1s;
-    transition-timing-function: cubic-bezier(.74, .85, .28, .87);
-    transition-delay: 0, 1s, 2s;
+.contenedor {
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    margin: 20% auto;
+    position: relative;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
 }
 
-div:hover {
-    height: 600px;
-    background-color: rgb(10, 13, 153);
+.contenedor div > img {
     width: 100%;
 }
+
+.front, .back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    transform: rotateY(180deg);
+}
+
+.contenedor:hover {
+    transform: rotateY(180deg);
+}
+
 
 
